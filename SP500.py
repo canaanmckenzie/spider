@@ -13,7 +13,7 @@ SP_quote = 'https://www.bloomberg.com/quote/SPX:IND'
 
 #BloombergQuotes
 quote_page = ['https://www.bloomberg.com/quote/INDU:IND',
-'https://www.bloomberg.com/quote/SPX:IND']
+'https://www.bloomberg.com/quote/SPX:IND','https://www.bloomberg.com/quote/CCMP:IND']
 
 data = []
 for pg in quote_page:
