@@ -30,6 +30,7 @@ for pg in quote_page:
 
 with open('Aggregate_Index.csv','a') as csv_file:
 	writer2 = csv.writer(csv_file)
+	writer2.writerow(' -------------------------- ' )
 	for name2, price2, time2 in data:
 		writer2.writerow([name2,price2,time2,datetime.now()])
 
